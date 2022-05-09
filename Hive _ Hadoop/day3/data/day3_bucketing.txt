@@ -1,0 +1,4 @@
+1	carry	doctor	A
+2	Jams	teacher	A
+3	owen	teacher	B
+4	Bob	doctor	B

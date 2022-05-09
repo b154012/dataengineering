@@ -1,0 +1,6 @@
+1	carry	doctor	A	1970-01-01
+2	jams	teacher	A	1971-03-27
+3	owen	teacher	B	1969-08-22
+4	bob	doctor	B	1973-12-11
+5	mary	teacher	B	1970-07-08
+6	kries	doctor	A	1971-05-18

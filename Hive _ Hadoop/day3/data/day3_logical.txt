@@ -1,0 +1,6 @@
+1	carry	doctor	A	160000
+2	jams	teacher	A	150000
+3	owen	teacher	B	144000
+4	Bob	doctor	B	130000
+5	mary	teacher	B	135000
+6	kries	doctor	A	155000

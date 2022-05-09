@@ -1,0 +1,6 @@
+1	carry	doctor	A	235262.323
+2	jams	teacher	A	192285.456
+3	owen	teacher	B	201578.532
+4	Bob	doctor	B	215577.758
+5	mary	teacher	B	201276.689
+6	kries	doctor	A	225782.254

@@ -1,0 +1,168 @@
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 952, in send
+    self.connect()
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1419, in connect
+    super().connect()
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\getturl.py", line 19, in func
+    with urllib.request.urlopen(req) as the_response:
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1417, in connect
+    super().connect()
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-1-3691bc2dd458>", line 19, in func
+    with urllib.request.urlopen(req) as the_response:
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1417, in connect
+    super().connect()
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-2-1284ffa8591c>", line 19, in func
+    with urllib.request.urlopen(req) as the_response:
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR:root:<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 1417, in connect
+    super().connect()
+  File "C:\ProgramData\Anaconda3\lib\http\client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\ProgramData\Anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-3-c69df0201caf>", line 19, in func
+    with urllib.request.urlopen(req) as the_response:
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\ProgramData\Anaconda3\lib\urllib\request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>

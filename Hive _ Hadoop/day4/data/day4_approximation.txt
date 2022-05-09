@@ -1,0 +1,6 @@
+1	carry	doctor	A	88.5
+2	jams	teacher	A	85
+3	owen	teacher	B	78.5
+4	bob	doctor	B	77.75
+5	mary	teacher	B	77
+6	kries	doctor	A	82.5

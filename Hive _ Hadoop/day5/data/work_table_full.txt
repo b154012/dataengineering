@@ -1,0 +1,3 @@
+4	doctor	medicine
+5	teacher	education
+6	engineer	internet
